@@ -3,8 +3,9 @@ package olle.roman.game.romansgameclient.model.objects.weapon;
 import java.util.Collection;
 
 import olle.roman.game.romansgameclient.model.objects.Equipment;
+import olle.roman.game.romansgameclient.model.objects.Weapon;
 
-public class Sword implements Equipment {
+public class Sword implements Weapon {
 
 	private static final long serialVersionUID = 875817752881370214L;
 	

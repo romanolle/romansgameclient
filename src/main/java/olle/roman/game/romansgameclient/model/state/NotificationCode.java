@@ -7,7 +7,8 @@ public enum NotificationCode {
 	GAME_SUCCESS(Severity.INFO, "Game successfilly finished"), 
 	INVENTORY_NOT_CONTAIN_EQUIPMENT(Severity.ERROR, "Your invetory does not contain final equipment"), 
 	CLASS_INVALID(Severity.ERROR, "Class invalid"),
-	EQUIPMENT_CANNOT_CREATE(Severity.ERROR, "Equipment can not be created");
+	EQUIPMENT_CANNOT_CREATE(Severity.ERROR, "Equipment can not be created"), 
+	DIED(Severity.INFO, "You died");
 
 	;
 	
